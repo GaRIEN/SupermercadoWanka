@@ -94,31 +94,36 @@
 
       <!-- formulario -->
 
-      <section>
-        <div>
-          <p>¿TIENES ALGUNA PREGUNTA?</p>
-          <p>CONTACTANOS</p>
-          <p>
+      <section class="section-formulario">
+        <div class="title-formulario">
+          <p class="title-pregunta">¿TIENES ALGUNA PREGUNTA?</p>
+          <p class="title-contactanos">CONTACTANOS</p>
+          <p class="parrafo-formulario">
             lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           </p>
         </div>
-        <div>
-          <form action="">
-            <label for="nombre">
-              <input type="text" id="nombre" placeholder="INGRESA TU NOMBRE" />
+        <div class="container-inputs">
+          <form action="" class="formulario">
+            <label for="nombre" class="label-nombre">
+              <input type="text" id="nombre" placeholder="INGRESA TU NOMBRE" class="input-nombre" />
             </label>
-            <label for="email">
-              <input type="text" id="email" placeholder="INGRESA TU EMAIL" />
+            <label for="email" class="label-email">
+              <input type="text" id="email" placeholder="INGRESA TU EMAIL" class="input-email" />
             </label>
-            <label for="asunto">
-              <input type="text" id="asunto" placeholder="INGRESE EL ASUNTO" />
+            <label for="asunto" class="label-asunto">
+              <input type="text" id="asunto" placeholder="INGRESE EL ASUNTO" class="input-asunto"/>
             </label>
-            <label for="mensaje">
-              <input type="text" id="mensaje" placeholder="INGRESE MENSAJE" />
+            <label for="mensaje" class="label-mensaje">
+              <textarea name="" id="mensaje" cols="48" rows="10" class="input-mensaje" placeholder="INGRESE EL MENSAJE"></textarea>
             </label>
           </form>
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="footer-logo">LOGO</div>
+      <div class="autor">Todos los derechos reservados <span>Huaman Cuchula Angel Gabriel</span> 2023 </div>
+    </footer>
   </body>
 </html>
