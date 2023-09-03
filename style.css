@@ -121,8 +121,9 @@ body{
   margin-top: 45px;
 }
 .card-container {
-  width: 400px;
-  height: 600px;
+  
+  width: 398px;
+  height: 590px;
   border: 2px solid gray;
   margin-bottom: 25px;
   text-align: center;
